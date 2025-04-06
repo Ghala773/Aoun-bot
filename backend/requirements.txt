@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pandas
+langchain
+langchain-community
+langchain-openai
+openai
+sentence-transformers
+scikit-learn
+tqdm
+nltk
+rouge-score
+ragas
+datasets
+python-dotenv
