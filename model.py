@@ -18,9 +18,9 @@ from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 
 # Load datasets
-df1 = pd.read_csv("data/Gp-data (PROTOTYPE).csv", encoding="latin1")
-df2 = pd.read_csv("data/Places to visit(PROTOTYPE).csv", encoding="latin1")
-df3 = pd.read_csv("data/GP_Museum_DataSet_the_final1.csv", encoding="latin1")
+df1 = pd.read_csv("Gp-data (PROTOTYPE).csv", encoding="latin1")
+df2 = pd.read_csv("Places to visit(PROTOTYPE).csv", encoding="latin1")
+df3 = pd.read_csv("GP_Museum_DataSet_the_final1.csv", encoding="latin1")
 
 # I added this because I faced an error while generating the next code
 print(df3.columns)
