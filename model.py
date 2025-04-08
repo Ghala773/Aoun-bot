@@ -19,6 +19,7 @@ from langchain.prompts import ChatPromptTemplate
 from transformers.utils import init_empty_weights
 
 
+
 # Load datasets
 df1 = pd.read_csv("Gp-data (PROTOTYPE).csv", encoding="latin1")
 df2 = pd.read_csv("Places to visit(PROTOTYPE).csv", encoding="latin1")
