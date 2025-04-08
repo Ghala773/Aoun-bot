@@ -16,6 +16,8 @@ from langchain_community.vectorstores import FAISS
 from langchain.schema import Document
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
+from transformers.utils import init_empty_weights
+
 
 # Load datasets
 df1 = pd.read_csv("Gp-data (PROTOTYPE).csv", encoding="latin1")
