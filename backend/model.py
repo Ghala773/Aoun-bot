@@ -15,9 +15,9 @@ import os
 from sklearn.metrics import precision_score, recall_score, f1_score
 from tqdm.autonotebook import tqdm, trange
 
-df1 = pd.read_csv("data/Gp_event_data(PROTOTYPE).csv", encoding="latin1")
-df2 = pd.read_csv("data/Places to visit(PROTOTYPE).csv", encoding="latin1")
-df3 = pd.read_csv("data/GP_Museum_DataSet_the_final1.csv", encoding="latin1")
+df1 = pd.read_csv("backend/data/Gp_event_data(PROTOTYPE).csv", encoding="latin1")
+df2 = pd.read_csv("backend/data/Places to visit(PROTOTYPE).csv", encoding="latin1")
+df3 = pd.read_csv("backend/data/GP_Museum_DataSet_the_final1.csv", encoding="latin1")
         
 documents_events_places = [
     Document(page_content=f"{row['Place']} | {row['Description']} | {row['Location']} | {row['Ticket Price']} | {row['Opening Hours']}")
